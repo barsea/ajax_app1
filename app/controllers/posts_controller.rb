@@ -4,6 +4,7 @@ class PostsController < ApplicationController
     @posts = Post.order(id: "DESC")
   end
 
+  # コメントアウトする
   # def new
   # end
 
